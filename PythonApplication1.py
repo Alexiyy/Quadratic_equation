@@ -1,17 +1,20 @@
-import math as m
+def input_valid():
+    pass
 
+def x2():
+    pass
 
-a = int(input ('Введи коэффицент a:'))
-b = int(input ('Введи коэффицент b:'))
-c = int(input ('Введи коэффицент c:'))
+def x3_1():
+    pass 
 
-d =b*b - 4*a*c
+def collatz(x):
+    if x == 1:
+        sp.append(x)
+        return x
+    elif x % 2 == 0:
+        return x2(x)
+    else:
+        return x3_1(x)
 
-if(d > 0):
-    x1 = (-b + m.sqrt(d))/(2*a)
-    x2 = (-b - m.sqrt(d))/(2*a)
-    print('Корни уравнения равны ' + str(x1) + ' и ' + str(x2) )
-elif(d == 0):
-    x = -b/(2*a)
-    print('Корень уравнения равен ' + str(x))
-else: print('Уравнение не имеет корней')
+print ('РЎРїРёСЃРѕРє РёРјРµРµС‚ РІРёРґ: '+str(x))
+sp = []
