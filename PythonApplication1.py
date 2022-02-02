@@ -1,20 +1,27 @@
 def input_valid():
-    pass
+    while True:
+        x = int(input("Введите переменную x = "))
+        if x > 0:
+            collatz(x)
+            break
+        print("Неверное число, попробуйте другое")
+    return x
 
 def x2():
     pass
 
+def x3_1(x):
+    x = x * 3 + 1
+    sp.append(int(x))
+    return collatz(x)
+
+def collatz():
+    pass
+
 def x3_1():
-    pass 
+    pass
 
-def collatz(x):
-    if x == 1:
-        sp.append(x)
-        return x
-    elif x % 2 == 0:
-        return x2(x)
-    else:
-        return x3_1(x)
+def collatz():
+    pass
 
-print ('Список имеет вид: '+str(x))
-sp = []
+input_valid()
