@@ -7,13 +7,15 @@ def input_valid():
         print("Неверное число, попробуйте другое")
     return x
 
-def x2():
-    pass 
+def x2(x):
+   
 
-def x3_1():
-    pass
-
-def collatz():
-    pass
-
+def x3_1(x):
+    
+    
+def collatz(x):
+ 
+ 
+sp = []
 input_valid()
+print ('Список имеет вид: '+str(x))g
